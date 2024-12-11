@@ -1,5 +1,5 @@
 // Configurazione password
-const password = "ciao";
+const password = "ciaone";
 const expirationMinutes = 100;
 
 // Stato dei quarti
