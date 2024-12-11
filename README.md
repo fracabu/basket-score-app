@@ -71,9 +71,8 @@ Se trovi un bug, per favore apri una issue su GitHub con:
 - 🖥️ L'ambiente in cui si verifica (browser, versione, etc.)
 
 ## 📞 Contatti
-- 📧 Email: example@domain.com
-- 🌐 Sito Web: [www.example.com](http://www.example.com)
-- 💬 Twitter: [@example](https://twitter.com/example)
+- 📧 Email: fracabu@gmail.com
+- 🌐 linkedin: [www.example.com](https://www.linkedin.com/in/francesco-~-capurso-5801031a9/)
 
 ## 🙏 Ringraziamenti
 - 👏 A tutti i contributori che hanno aiutato a migliorare questo progetto
