@@ -1,0 +1,158 @@
+/* Body */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+              url('https://images.unsplash.com/photo-1546519638-68e109498ffc') center/cover fixed;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+/* Hidden class */
+.hidden {
+  display: none;
+}
+
+/* Login Section */
+#login {
+  background: #800020;
+  padding: 40px;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.password-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#loginForm {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+button {
+  background: #FFA500;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #FF8C00;
+}
+
+/* Main App */
+#app {
+  background: #800020;
+  color: white;
+  padding: 30px;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px auto;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+/* Quarter Navigation */
+.quarter-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
+#quarterTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Score Section */
+#scores {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 0;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
+.team-score {
+  text-align: center;
+}
+
+.team-score h3 {
+  margin-bottom: 10px;
+}
+
+.score {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #FFA500;
+}
+
+/* Players Section */
+#players {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.team-section {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.add-player-btn {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.generate-pdf-btn {
+  background: #2ecc71;
+}
+
+.generate-pdf-btn:hover {
+  background: #27ae60;
+}
+
+.logo-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

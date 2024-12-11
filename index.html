@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basket Scorer</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <!-- Login Section -->
+<div id="login">
+    <form id="loginForm">
+        <!-- Logo -->
+        <div class="logo-container">
+            <img src="LOGO_VIRTUS_ROMA.avif" alt="Logo" class="logo">
+        </div>
+        
+        <!-- Password Section -->
+        <div class="password-container">
+            <input type="password" id="passwordInput" placeholder="Inserisci password">
+        </div>
+        
+        <!-- Buttons -->
+        <button type="submit">Login</button>
+        <button type="button" id="changePasswordBtn">Cambia Password</button>
+    </form>
+</div>
+
+
+    <!-- Main Application -->
+    <div id="app" class="hidden">
+        <header>
+            <h1><span class="basketball-icon">🏀</span> Basket Scorer</h1>
+            <div class="quarter-navigation">
+                <button id="prevQuarter">← Quarto Precedente</button>
+                <h2 id="quarterTitle">1° Quarto</h2>
+                <button id="nextQuarter">Quarto Successivo →</button>
+            </div>
+        </header>
+
+        <!-- Score Section -->
+        <section id="scores">
+            <div class="team-score">
+                <h3>Squadra Casa</h3>
+                <div class="score" id="homeScore">0</div>
+            </div>
+            <div class="team-score">
+                <h3>Squadra Ospite</h3>
+                <div class="score" id="guestScore">0</div>
+            </div>
+        </section>
+
+        <!-- Players Section -->
+        <section id="players">
+            <div class="team-section">
+                <h3>Giocatori Local</h3>
+                <div id="localPlayerList" class="player-list"></div>
+                <button id="addLocalPlayerBtn" class="add-player-btn">Aggiungi Giocatore Local</button>
+            </div>
+            <div class="team-section">
+                <h3>Giocatori Ospiti</h3>
+                <div id="guestPlayerList" class="player-list"></div>
+                <button id="addGuestPlayerBtn" class="add-player-btn">Aggiungi Giocatore Ospite</button>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <button id="generatePDF" class="generate-pdf-btn">
+                <span class="pdf-icon">📄</span> Genera PDF
+            </button>
+        </footer>
+    </div>
+
+    <!-- Player Template -->
+    <template id="playerTemplate">
+        <div class="player">
+            <div class="player-info">
+                <input type="text" placeholder="Nome" class="player-name">
+                <input type="text" placeholder="Cognome" class="player-surname">
+                <input type="number" placeholder="N°" class="player-number">
+            </div>
+            <div class="actions">
+                <button class="score-btn" data-points="2">+2</button>
+                <button class="score-btn" data-points="3">+3</button>
+                <button class="score-btn" data-points="1">+1</button>
+                <button class="foul-btn">Fallo</button>
+            </div>
+            <div class="stats">
+                <span class="points">Punti: 0</span>
+                <span class="fouls">Falli: 0</span>
+            </div>
+        </div>
+    </template>
+
+    <script src="script.js"></script>
+</body>
+</html>
