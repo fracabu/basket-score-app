@@ -72,7 +72,8 @@ Se trovi un bug, per favore apri una issue su GitHub con:
 
 ## 📞 Contatti
 - 📧 Email: fracabu@gmail.com
-- 🌐 linkedin: https://www.linkedin.com/in/francesco-~-capurso-5801031a9/
+- 🌐 Sito Web: [https://www.linkedin.com/in/francesco-~-capurso-5801031a9/](https://www.linkedin.com/in/francesco-~-capurso-5801031a9/)
+
 
 ## 🙏 Ringraziamenti
 - 👏 A tutti i contributori che hanno aiutato a migliorare questo progetto
@@ -87,3 +88,4 @@ Se trovi un bug, per favore apri una issue su GitHub con:
 
 ---
 ⭐️ Se ti piace questo progetto, metti una stella su GitHub!
+
