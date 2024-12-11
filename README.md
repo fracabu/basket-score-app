@@ -58,27 +58,13 @@ Puoi configurare alcuni parametri direttamente nel file `script.js`:
 ## Schermate
 
 ### Login
-![Login Screen](screenshot-login.png)
+![image](https://github.com/user-attachments/assets/5a560d20-4528-4ea0-a06a-9772157b751e)
+
 
 ### Tabellone e Gestione Giocatori
-![App Screen](screenshot-app.png)
+![image](https://github.com/user-attachments/assets/fcc91c23-d8ca-489e-8a29-135c0eba22a3)
 
-### PDF Generato
-![PDF Sample](screenshot-pdf.png)
 
-## Icone
-
-### Pallone da Basket
-![Basketball Icon](https://www.flaticon.com/svg/static/icons/svg/727/727614.svg)
-
-### Canestro
-![Basketball Hoop Icon](https://www.flaticon.com/svg/static/icons/svg/727/727617.svg)
-
-## Contributi
-
-Contribuzioni sono benvenute! Puoi:
-- Segnalare bug o proporre nuove funzionalità tramite [Issues](https://github.com/tuo-utente/basket-scorer/issues).
-- Fare un fork del progetto, implementare modifiche e aprire una [Pull Request](https://github.com/tuo-utente/basket-scorer/pulls).
 
 ## Licenza
 
