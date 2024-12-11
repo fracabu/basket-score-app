@@ -72,7 +72,7 @@ Se trovi un bug, per favore apri una issue su GitHub con:
 
 ## 📞 Contatti
 - 📧 Email: fracabu@gmail.com
-- 🌐 linkedin: [www.example.com](https://www.linkedin.com/in/francesco-~-capurso-5801031a9/)
+- 🌐 linkedin: https://www.linkedin.com/in/francesco-~-capurso-5801031a9/
 
 ## 🙏 Ringraziamenti
 - 👏 A tutti i contributori che hanno aiutato a migliorare questo progetto
