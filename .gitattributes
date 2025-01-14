@@ -1,4 +1,15 @@
 # Forza l'identificazione dei linguaggi
+*.js linguaggio=JavaScript
+*.vue linguaggio=Vue
+*.ts linguaggio=TypeScript
 *.html linguaggio=HTML
 *.css linguaggio=CSS
-*.js linguaggio=JavaScript
+
+# Ignora i file generati
+dist/* linguaggio=generated
+build/* linguaggio=generated
+
+# Ignora i file di configurazione
+package.json linguaggio=JSON
+yarn.lock linguaggio=YAML
+tsconfig.json linguaggio=JSON
