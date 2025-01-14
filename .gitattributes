@@ -1,0 +1,4 @@
+# Forza l'identificazione dei linguaggi
+*.html linguaggio=HTML
+*.css linguaggio=CSS
+*.js linguaggio=JavaScript
